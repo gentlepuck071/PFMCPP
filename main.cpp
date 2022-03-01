@@ -39,7 +39,9 @@ Purpose:  This project will show you the difference between member functions and
  8) call f.compare() with the correct arguments, based on 2) and 5)
  
  9) correct the cout that uses smaller's member variable with some safe pointer usage.
-         the possible return values of the compare() function should give you a hint.
+    the possible return values of the compare() function should give you a hint.
+    Also: if smaller == nullptr, make the cout statement explain the reasons that `f.compare()` might return nullptr.  
+    hint: There are multiple reasons
  
  10) complete the implementation for the static function in <structName2>
  
